@@ -1,0 +1,109 @@
+@use "variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: variables.$printing;
+  font-size: variables.$fs-normal;
+  background-color: variables.$col-bg;
+  color: variables.$col-primary-900;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: variables.$fs-xxlarge;
+}
+h2 {
+  font-size: variables.$fs-large;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border: 2px solid variables.$col-primary-600;
+
+  background-color: variables.$col-bg;
+}
+
+button {
+  max-width: fit-content;
+  padding: 0.5rem 2rem;
+  justify-self: center;
+  background-color: variables.$col-bg;
+  border: 2px solid variables.$col-primary-600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: variables.$col-primary-600;
+  color: variables.$col-bg;
+}
+
+.container {
+  min-width: 64rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

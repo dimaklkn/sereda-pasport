@@ -1,0 +1,13 @@
+@use "variables";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.footer {
+  display: grid;
+  gap: 0.5rem;
+  place-content: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: variables.$fs-small;
+  text-align: center;
+}

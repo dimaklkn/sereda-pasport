@@ -1,0 +1,14 @@
+@use "variables";
+
+.displayInfo {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

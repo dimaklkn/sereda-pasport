@@ -1,0 +1,29 @@
+//FADING animations
+
+.has-fade {
+  visibility: hidden;
+}
+
+.animated {
+  visibility: visible;
+}
+
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  1% {
+    visibility: visible;
+  }
+
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 500ms ease-in-out forwards;
+}

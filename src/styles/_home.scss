@@ -1,0 +1,21 @@
+@use "variables";
+
+.home {
+  padding-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: variables.$printing;
+  text-align: center;
+  img {
+    justify-self: center;
+  }
+  &__eagle1 {
+    width: 6rem;
+  }
+  &__eagle2 {
+    width: 3rem;
+  }
+}

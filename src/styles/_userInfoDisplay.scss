@@ -1,0 +1,91 @@
+@use "variables";
+
+.display {
+  background-color: variables.$col-bg;
+  display: grid;
+  width: 100%;
+  text-align: center;
+  border: 2px solid variables.$col-primary-600;
+  padding: 3rem;
+
+  &__wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid variables.$col-primary-600;
+  }
+
+  &__user-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+  }
+
+  &__user-permission {
+    position: relative;
+    display: grid;
+    text-align: left;
+    img {
+      justify-self: left;
+    }
+  }
+
+  &__starshina {
+    border-bottom: 1px solid variables.$col-primary-600;
+  }
+
+  &__wrapper2 {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__delay {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+  }
+
+  &__printing {
+    font-family: variables.$printing;
+  }
+  &__cursive {
+    font-family: variables.$handwriting;
+    font-size: variables.$fs-large;
+    color: variables.$col-ink;
+  }
+}
+
+.eagleStamp {
+  width: 10rem;
+}
+
+.numbering1 {
+  position: absolute;
+  width: 4rem;
+  left: -12%;
+  top: 45%;
+}
+
+.seredaStamp {
+  position: absolute;
+  width: 10rem;
+  left: 60%;
+  top: 60%;
+}
+
+.inkJibberish {
+  position: absolute;
+  width: 20rem;
+  top: 0;
+  left: 40%;
+}
+
+.markPlace {
+  width: 10rem;
+}
+
+.inkCrossing {
+  height: 3rem;
+}
