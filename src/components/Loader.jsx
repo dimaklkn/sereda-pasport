@@ -9,6 +9,7 @@ export default function Loader() {
         alignItems: "center",
         height: "100vh",
       }}
+      className="has-fade fade-out"
     >
       <img
         src={eagle} // from public folder
