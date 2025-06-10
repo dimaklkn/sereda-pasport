@@ -1,6 +1,6 @@
 import React from "react";
 import { convertToArshinAndVershok, getFutureAndTodayDate } from "../utils";
-import eagleStamp from "../assets/imperialStamp.png";
+import eagleStamp from "../assets/imperialStamp1.png";
 import numbering from "../assets/numbering.png";
 import seredaStamp from "../assets/seredaStamp.png";
 import inkJibberish from "../assets/inkJibberish.png";
