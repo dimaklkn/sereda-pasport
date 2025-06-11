@@ -1,6 +1,7 @@
 @use "variables";
 
 .displayInfo {
+  min-width: 64rem;
   display: grid;
   gap: 2rem;
   justify-content: center;

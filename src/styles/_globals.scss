@@ -51,7 +51,8 @@ h6 {
 }
 
 h1 {
-  font-size: variables.$fs-xxlarge;
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 0.8181818181818182rem + 3.4090909090909087vw, 3rem);
 }
 h2 {
   font-size: variables.$fs-large;
@@ -94,7 +95,7 @@ button:hover {
 }
 
 .container {
-  min-width: 64rem;
+  width: 100vw;
   max-width: 64rem;
   margin: 0 auto;
 }
