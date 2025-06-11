@@ -87,6 +87,7 @@ button {
   border: 2px solid variables.$col-primary-600;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  color: variables.$col-primary-600;
 }
 
 button:hover {
