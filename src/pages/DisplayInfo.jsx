@@ -30,7 +30,7 @@ export default function DisplayInfo() {
     const node = componentRef.current;
     html2canvas(node).then((canvas) => {
       const link = document.createElement("a");
-      link.download = "user-info.png";
+      link.download = "Pasport.png";
       link.href = canvas.toDataURL();
       link.click();
     });
