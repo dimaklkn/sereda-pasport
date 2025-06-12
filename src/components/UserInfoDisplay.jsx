@@ -82,7 +82,7 @@ export default React.forwardRef(function UserInfoDisplay({ info }, ref) {
 
           <p className="display__starshina">
             <span className="display__cursive">
-              зам. Волостного Старшины И. Звездкин
+              зам. Волостного Старшины И. Звездкинъ
             </span>
           </p>
           <img src={numbering} alt="" className="numbering1" />
